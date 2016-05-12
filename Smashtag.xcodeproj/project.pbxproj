@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4FC7041CCA243E00CD3287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7031CCA243E00CD3287 /* AppDelegate.swift */; };
+		EF4FC7061CCA243E00CD3287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7051CCA243E00CD3287 /* ViewController.swift */; };
+		EF4FC7091CCA243E00CD3287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4FC7071CCA243E00CD3287 /* Main.storyboard */; };
+		EF4FC70B1CCA243E00CD3287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4FC70A1CCA243E00CD3287 /* Assets.xcassets */; };
+		EF4FC70E1CCA243E00CD3287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4FC70C1CCA243E00CD3287 /* LaunchScreen.storyboard */; };
+		EF4FC7191CCA243F00CD3287 /* SmashtagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7181CCA243F00CD3287 /* SmashtagTests.swift */; };
+		EF4FC7241CCA243F00CD3287 /* SmashtagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7231CCA243F00CD3287 /* SmashtagUITests.swift */; };
+		EF4FC7331CCA24C500CD3287 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7321CCA24C500CD3287 /* TweetTableViewController.swift */; };
+		EF4FC7361CCA270A00CD3287 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7351CCA270A00CD3287 /* Tweet.swift */; };
+		EF4FC7381CCA2CE600CD3287 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7371CCA2CE600CD3287 /* MediaItem.swift */; };
+		EF4FC73A1CCA2CF900CD3287 /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC7391CCA2CF900CD3287 /* TwitterRequest.swift */; };
+		EF4FC73C1CCA2D0300CD3287 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC73B1CCA2D0300CD3287 /* User.swift */; };
+		EF4FC73E1CCA6AD800CD3287 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FC73D1CCA6AD800CD3287 /* TweetTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4FC7151CCA243F00CD3287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4FC6F81CCA243E00CD3287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4FC6FF1CCA243E00CD3287;
+			remoteInfo = Smashtag;
+		};
+		EF4FC7201CCA243F00CD3287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4FC6F81CCA243E00CD3287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4FC6FF1CCA243E00CD3287;
+			remoteInfo = Smashtag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4FC7001CCA243E00CD3287 /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4FC7031CCA243E00CD3287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF4FC7051CCA243E00CD3287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF4FC7081CCA243E00CD3287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4FC70A1CCA243E00CD3287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4FC70D1CCA243E00CD3287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4FC70F1CCA243E00CD3287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4FC7141CCA243F00CD3287 /* SmashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4FC7181CCA243F00CD3287 /* SmashtagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagTests.swift; sourceTree = "<group>"; };
+		EF4FC71A1CCA243F00CD3287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4FC71F1CCA243F00CD3287 /* SmashtagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4FC7231CCA243F00CD3287 /* SmashtagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmashtagUITests.swift; sourceTree = "<group>"; };
+		EF4FC7251CCA243F00CD3287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4FC7321CCA24C500CD3287 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TweetTableViewController.swift; path = ../TweetTableViewController.swift; sourceTree = "<group>"; };
+		EF4FC7351CCA270A00CD3287 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		EF4FC7371CCA2CE600CD3287 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		EF4FC7391CCA2CF900CD3287 /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
+		EF4FC73B1CCA2D0300CD3287 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EF4FC73D1CCA6AD800CD3287 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4FC6FD1CCA243E00CD3287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4FC7111CCA243F00CD3287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4FC71C1CCA243F00CD3287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4FC6F71CCA243E00CD3287 = {
+			isa = PBXGroup;
+			children = (
+				EF4FC7021CCA243E00CD3287 /* Smashtag */,
+				EF4FC7171CCA243F00CD3287 /* SmashtagTests */,
+				EF4FC7221CCA243F00CD3287 /* SmashtagUITests */,
+				EF4FC7011CCA243E00CD3287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4FC7011CCA243E00CD3287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FC7001CCA243E00CD3287 /* Smashtag.app */,
+				EF4FC7141CCA243F00CD3287 /* SmashtagTests.xctest */,
+				EF4FC71F1CCA243F00CD3287 /* SmashtagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4FC7021CCA243E00CD3287 /* Smashtag */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FC7341CCA264E00CD3287 /* Twitter */,
+				EF4FC7311CCA244600CD3287 /* Supporting Files */,
+				EF4FC7321CCA24C500CD3287 /* TweetTableViewController.swift */,
+				EF4FC7051CCA243E00CD3287 /* ViewController.swift */,
+				EF4FC7071CCA243E00CD3287 /* Main.storyboard */,
+				EF4FC73D1CCA6AD800CD3287 /* TweetTableViewCell.swift */,
+			);
+			path = Smashtag;
+			sourceTree = "<group>";
+		};
+		EF4FC7171CCA243F00CD3287 /* SmashtagTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FC7181CCA243F00CD3287 /* SmashtagTests.swift */,
+				EF4FC71A1CCA243F00CD3287 /* Info.plist */,
+			);
+			path = SmashtagTests;
+			sourceTree = "<group>";
+		};
+		EF4FC7221CCA243F00CD3287 /* SmashtagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FC7231CCA243F00CD3287 /* SmashtagUITests.swift */,
+				EF4FC7251CCA243F00CD3287 /* Info.plist */,
+			);
+			path = SmashtagUITests;
+			sourceTree = "<group>";
+		};
+		EF4FC7311CCA244600CD3287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FC70C1CCA243E00CD3287 /* LaunchScreen.storyboard */,
+				EF4FC70F1CCA243E00CD3287 /* Info.plist */,
+				EF4FC70A1CCA243E00CD3287 /* Assets.xcassets */,
+				EF4FC7031CCA243E00CD3287 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4FC7341CCA264E00CD3287 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FC7351CCA270A00CD3287 /* Tweet.swift */,
+				EF4FC7371CCA2CE600CD3287 /* MediaItem.swift */,
+				EF4FC7391CCA2CF900CD3287 /* TwitterRequest.swift */,
+				EF4FC73B1CCA2D0300CD3287 /* User.swift */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4FC6FF1CCA243E00CD3287 /* Smashtag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4FC7281CCA243F00CD3287 /* Build configuration list for PBXNativeTarget "Smashtag" */;
+			buildPhases = (
+				EF4FC6FC1CCA243E00CD3287 /* Sources */,
+				EF4FC6FD1CCA243E00CD3287 /* Frameworks */,
+				EF4FC6FE1CCA243E00CD3287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smashtag;
+			productName = Smashtag;
+			productReference = EF4FC7001CCA243E00CD3287 /* Smashtag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4FC7131CCA243F00CD3287 /* SmashtagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4FC72B1CCA243F00CD3287 /* Build configuration list for PBXNativeTarget "SmashtagTests" */;
+			buildPhases = (
+				EF4FC7101CCA243F00CD3287 /* Sources */,
+				EF4FC7111CCA243F00CD3287 /* Frameworks */,
+				EF4FC7121CCA243F00CD3287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4FC7161CCA243F00CD3287 /* PBXTargetDependency */,
+			);
+			name = SmashtagTests;
+			productName = SmashtagTests;
+			productReference = EF4FC7141CCA243F00CD3287 /* SmashtagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4FC71E1CCA243F00CD3287 /* SmashtagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4FC72E1CCA243F00CD3287 /* Build configuration list for PBXNativeTarget "SmashtagUITests" */;
+			buildPhases = (
+				EF4FC71B1CCA243F00CD3287 /* Sources */,
+				EF4FC71C1CCA243F00CD3287 /* Frameworks */,
+				EF4FC71D1CCA243F00CD3287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4FC7211CCA243F00CD3287 /* PBXTargetDependency */,
+			);
+			name = SmashtagUITests;
+			productName = SmashtagUITests;
+			productReference = EF4FC71F1CCA243F00CD3287 /* SmashtagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4FC6F81CCA243E00CD3287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yoanna Mareva";
+				TargetAttributes = {
+					EF4FC6FF1CCA243E00CD3287 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EF4FC7131CCA243F00CD3287 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF4FC6FF1CCA243E00CD3287;
+					};
+					EF4FC71E1CCA243F00CD3287 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF4FC6FF1CCA243E00CD3287;
+					};
+				};
+			};
+			buildConfigurationList = EF4FC6FB1CCA243E00CD3287 /* Build configuration list for PBXProject "Smashtag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4FC6F71CCA243E00CD3287;
+			productRefGroup = EF4FC7011CCA243E00CD3287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4FC6FF1CCA243E00CD3287 /* Smashtag */,
+				EF4FC7131CCA243F00CD3287 /* SmashtagTests */,
+				EF4FC71E1CCA243F00CD3287 /* SmashtagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4FC6FE1CCA243E00CD3287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4FC70E1CCA243E00CD3287 /* LaunchScreen.storyboard in Resources */,
+				EF4FC70B1CCA243E00CD3287 /* Assets.xcassets in Resources */,
+				EF4FC7091CCA243E00CD3287 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4FC7121CCA243F00CD3287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4FC71D1CCA243F00CD3287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4FC6FC1CCA243E00CD3287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4FC7331CCA24C500CD3287 /* TweetTableViewController.swift in Sources */,
+				EF4FC7061CCA243E00CD3287 /* ViewController.swift in Sources */,
+				EF4FC7381CCA2CE600CD3287 /* MediaItem.swift in Sources */,
+				EF4FC7041CCA243E00CD3287 /* AppDelegate.swift in Sources */,
+				EF4FC7361CCA270A00CD3287 /* Tweet.swift in Sources */,
+				EF4FC73A1CCA2CF900CD3287 /* TwitterRequest.swift in Sources */,
+				EF4FC73C1CCA2D0300CD3287 /* User.swift in Sources */,
+				EF4FC73E1CCA6AD800CD3287 /* TweetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4FC7101CCA243F00CD3287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4FC7191CCA243F00CD3287 /* SmashtagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4FC71B1CCA243F00CD3287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4FC7241CCA243F00CD3287 /* SmashtagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4FC7161CCA243F00CD3287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4FC6FF1CCA243E00CD3287 /* Smashtag */;
+			targetProxy = EF4FC7151CCA243F00CD3287 /* PBXContainerItemProxy */;
+		};
+		EF4FC7211CCA243F00CD3287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4FC6FF1CCA243E00CD3287 /* Smashtag */;
+			targetProxy = EF4FC7201CCA243F00CD3287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4FC7071CCA243E00CD3287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4FC7081CCA243E00CD3287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4FC70C1CCA243E00CD3287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4FC70D1CCA243E00CD3287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4FC7261CCA243F00CD3287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4FC7271CCA243F00CD3287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4FC7291CCA243F00CD3287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smashtag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooanna.Smashtag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4FC72A1CCA243F00CD3287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Smashtag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooanna.Smashtag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4FC72C1CCA243F00CD3287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashtagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooanna.SmashtagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Debug;
+		};
+		EF4FC72D1CCA243F00CD3287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmashtagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooanna.SmashtagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
+			};
+			name = Release;
+		};
+		EF4FC72F1CCA243F00CD3287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashtagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooanna.SmashtagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smashtag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF4FC7301CCA243F00CD3287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmashtagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooanna.SmashtagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Smashtag;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4FC6FB1CCA243E00CD3287 /* Build configuration list for PBXProject "Smashtag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4FC7261CCA243F00CD3287 /* Debug */,
+				EF4FC7271CCA243F00CD3287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4FC7281CCA243F00CD3287 /* Build configuration list for PBXNativeTarget "Smashtag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4FC7291CCA243F00CD3287 /* Debug */,
+				EF4FC72A1CCA243F00CD3287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4FC72B1CCA243F00CD3287 /* Build configuration list for PBXNativeTarget "SmashtagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4FC72C1CCA243F00CD3287 /* Debug */,
+				EF4FC72D1CCA243F00CD3287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4FC72E1CCA243F00CD3287 /* Build configuration list for PBXNativeTarget "SmashtagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4FC72F1CCA243F00CD3287 /* Debug */,
+				EF4FC7301CCA243F00CD3287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4FC6F81CCA243E00CD3287 /* Project object */;
+}
